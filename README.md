@@ -26,3 +26,5 @@
 # Игнорирует CLI конфигурационных файлов 
 # .terraformrc
 # terraform.rc
+new line in brench fix
+Новая строка добавлена с помощью IDE PyCharm
