@@ -29,3 +29,6 @@ ansible 2.9.6
 
 Terrafom v1.6.2
 on linux_386
+
+
+![4 задание ](https://github.com/chinchanchonTom/devops-netology/blob/main/z4WIrVkdSxY.jpg)
