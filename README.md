@@ -1,3 +1,14 @@
+# 1 Задание 
+
+** ссылка на мой репозиторий**
+https://hub.docker.com/repository/docker/chinchanchontom/nginx/general
+
+так же скрин моего подключения к сайту
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_3.png)
+
+
+
+
 # 2 Здание
 
 1. Монолитное приложение не подходит для докера. БОльше подходит физический сервер или виртуальный
@@ -10,4 +21,6 @@
 8. Докер подходит
 
 
+# 3 Задание 
 
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_5.png)
