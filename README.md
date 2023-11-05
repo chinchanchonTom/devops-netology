@@ -1,6 +1,6 @@
 # 1 Задание 
 Создать собственный образ операционной системы с помощью Packer.
-![Иллюстрация к проекту]((https://github.com/chinchanchonTom/devops-netology/blob/main/greate%20image.png))
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/greate%20image.png)
 
 
 # 2 Здание
