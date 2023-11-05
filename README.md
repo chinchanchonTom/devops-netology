@@ -1,26 +1,20 @@
 # 1 Задание 
-
-** ссылка на мой репозиторий**
-https://hub.docker.com/repository/docker/chinchanchontom/nginx/general
-
-так же скрин моего подключения к сайту
-![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_3.png)
-
-
+Создать собственный образ операционной системы с помощью Packer.
+![Иллюстрация к проекту]((https://github.com/chinchanchonTom/devops-netology/blob/main/greate%20image.png))
 
 
 # 2 Здание
+Создать вашу первую виртуальную машину в Яндекс.Облаке.
 
-1. Монолитное приложение не подходит для докера. БОльше подходит физический сервер или виртуальный
-2. Веб-приложение подходит для быстрого развертывания и модульности.Докер лучший вариант
-3. ДОкер не полностью подходит
-4. ДЛя маштабтрования можно использовать докер
-5. Докер подходит
-6. Докер подходит
-7. ЛУчше подходит физ. или виртуальный сервер
-8. Докер подходит
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/virtual%20machine.png)
 
 
 # 3 Задание 
+Создать ваш первый готовый к боевой эксплуатации компонент мониторинга, состоящий из стека микросервисов.
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_6.png)
 
-![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_5.png)
+
+#4 Задание 
+Скриншот работающего веб-интерфейса Grafana с текущими метриками, как на примере ниже.
+
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_8.png)
