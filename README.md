@@ -16,5 +16,11 @@ Docker Swarm кластер использует Raft Consensus Algorithm для
 
 
 #2 задание Создайте ваш первый Docker Swarm-кластер в Яндекс Облаке. 
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_5.png)
 
 
+#3 задание  Создайте ваш первый, готовый к боевой эксплуатации кластер мониторинга, состоящий из стека микросервисов.
+
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_6.png)
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_7.png)
+![Иллюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/Screenshot_8.png)
