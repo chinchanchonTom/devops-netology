@@ -17,7 +17,8 @@
 name  = "example_${random_password.random_string_FAKE.resulT}"
 
 Изменил 
-resource "docker_container" "1nginx" {
+resource "docker_container" "1nginx" 
+
 #5 5 Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды docker ps.
 ![Изменил имя ](https://github.com/chinchanchonTom/devops-netology/blob/main/running%20container%20%7Bsecret%7D.png)
 
