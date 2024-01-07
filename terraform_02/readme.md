@@ -13,7 +13,7 @@
 Примечание: К OS ubuntu "out of a box, те из коробки" необходимо подключаться под пользователем ubuntu: ```"ssh ubuntu@vm_ip_address"```. Предварительно убедитесь, что ваш ключ добавлен в ssh-агент: ```eval $(ssh-agent) && ssh-add``` Вы познакомитесь с тем как при создании ВМ создать своего пользователя в блоке metadata в следующей лекции.;
 
 ![Инициализировал проект и исправил неточности ](https://github.com/chinchanchonTom/devops-netology/blob/main/terraform_02/2%20%D1%83%D1%80%D0%BE%D0%BA%201%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%206%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%201%20%D1%87%D0%B0%D1%81%D1%82%D1%8C.png)
-![подключение и команла curl ]([https://github.com/chinchanchonTom/devops-netology/blob/main/terraform_02/2%20%D1%83%D1%80%D0%BE%D0%BA%201%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%206%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82.png)
+![подключение и команла curl ](https://github.com/chinchanchonTom/devops-netology/blob/main/terraform_02/2%20%D1%83%D1%80%D0%BE%D0%BA%201%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%206%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82.png)
 
 
 Ответьте, как в процессе обучения могут пригодиться параметры ```preemptible = true``` и ```core_fraction=5``` в параметрах ВМ.
