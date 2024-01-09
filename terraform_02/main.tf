@@ -16,9 +16,9 @@ resource "yandex_compute_instance" "platform" {
   name        = local.name_vm_web_local
   platform_id = "standard-v3"
   resources {
-    cores         = local.vms_resources.web.cores
-    memory        = local.vms_resources.web.memory
-    core_fraction = local.vms_resources.web.core_fraction
+    cores         = var.vm_resources_web.cores
+    memory        = var.vm_resources_web.memory
+    core_fraction = var.vm_resources_web.core_fraction
   }
   boot_disk {
     initialize_params {
@@ -42,9 +42,9 @@ resource "yandex_compute_instance" "platform_db" {
   name        = local.name_vm_db_local
   platform_id = "standard-v3"
   resources {
-    cores         = local.vms_resources.db.cores
-    memory        = local.vms_resources.db.memory
-    core_fraction = local.vms_resources.db.core_fraction
+    cores         = var.vm_resources_db.cores
+    memory        = var.vm_resources_db.memory
+    core_fraction = var.vm_resources_db.core_fraction
   }
   boot_disk {
     initialize_params {

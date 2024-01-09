@@ -20,6 +20,24 @@ variable "image_id" {
   default = "ubuntu-2004-lts"
   
 }
+variable "vm_resources_db" {
+  type = map
+  default = {  
+      cores         = 2
+      memory        = 2
+      core_fraction = 20
+    }
+  }
+
+variable "vm_resources_web" {
+  type = map
+  default = {
+      cores         = 2
+      memory        = 1
+      core_fraction = 20
+    }
+  }
+  
 
 variable "folder_id" {
   type        = string
