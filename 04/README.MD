@@ -27,6 +27,8 @@
 Замените ресурсы yandex_vpc_network и yandex_vpc_subnet созданным модулем. Не забудьте передать необходимые параметры сети из модуля vpc в модуль с виртуальной машиной.
 Сгенерируйте документацию к модулю с помощью terraform-docs.
 ##Решение
+
+
 ![илюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/04/img/step2_console.png)
 
 
@@ -39,6 +41,8 @@
 Полностью удалите из стейта модуль vm.
 Импортируйте всё обратно. Проверьте terraform plan. Изменений быть не должно. Приложите список выполненных команд и скриншоты процессы.
 ##Решение
+
+
 ![илюстрация к проекту](https://github.com/chinchanchonTom/devops-netology/blob/main/04/img/step%203.png)
 
 
