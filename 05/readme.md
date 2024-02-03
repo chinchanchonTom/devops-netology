@@ -17,8 +17,14 @@
 Пришлите ответ об ошибке доступа к state.
 Принудительно разблокируйте state. Пришлите команду и вывод.
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/Backet.png)
+
+
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tfstate-lock.png)
+
+
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/lock%20id.png)
+
+
 
 
 ![Илюстация к заданию]()
@@ -29,10 +35,8 @@
 Вставьте в комментарий PR результат анализа tflint и checkov, план изменений инфраструктуры из вывода команды terraform plan.
 Пришлите ссылку на PR для ревью. Вливать код в 'terraform-05' не нужно.
 
-![Илюстация к заданию]()
-![Илюстация к заданию]()
-![Илюстация к заданию]()
-![Илюстация к заданию]()
+
+
 
 
 ##Задание 4
