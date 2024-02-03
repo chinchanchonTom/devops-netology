@@ -4,10 +4,10 @@
 из демо к лекции 4.
 Проверьте код с помощью tflint и checkov. Вам не нужно инициализировать этот проект.
 Перечислите, какие типы ошибок обнаружены в проекте (без дублей).
-!(Илюстация к заданию)[https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/step1-1.png]
-!(Илюстация к заданию)[(https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tflint.png)]
+![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/step1-1.png)
+![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tflint.png)
 
-
+Ответ. Проект не был инициализирован. Нет установленого провайдера есть неиспользуемые переменные. В модулях присутствует ссылки на ветку мейн без определённого коммита.
 
 ##Задание 2
 Возьмите ваш GitHub-репозиторий с выполненным ДЗ 4 в ветке 'terraform-04' и сделайте из него ветку 'terraform-05'.
@@ -16,9 +16,12 @@
 Откройте в проекте terraform console, а в другом окне из этой же директории попробуйте запустить terraform apply.
 Пришлите ответ об ошибке доступа к state.
 Принудительно разблокируйте state. Пришлите команду и вывод.
+![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/Backet.png)
+![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tfstate-lock.png)
+![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/lock%20id.png)
 
 
-
+![Илюстация к заданию]()
 ##Задание 3
 Сделайте в GitHub из ветки 'terraform-05' новую ветку 'terraform-hotfix'.
 Проверье код с помощью tflint и checkov, исправьте все предупреждения и ошибки в 'terraform-hotfix', сделайте коммит.
@@ -26,7 +29,10 @@
 Вставьте в комментарий PR результат анализа tflint и checkov, план изменений инфраструктуры из вывода команды terraform plan.
 Пришлите ссылку на PR для ревью. Вливать код в 'terraform-05' не нужно.
 
-
+![Илюстация к заданию]()
+![Илюстация к заданию]()
+![Илюстация к заданию]()
+![Илюстация к заданию]()
 
 
 ##Задание 4
