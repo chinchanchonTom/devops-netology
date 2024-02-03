@@ -4,7 +4,8 @@
 из демо к лекции 4.
 Проверьте код с помощью tflint и checkov. Вам не нужно инициализировать этот проект.
 Перечислите, какие типы ошибок обнаружены в проекте (без дублей).
-
+!(Илюстация к заданию)[https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/step1-1.png]
+!(Илюстация к заданию)[(https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tflint.png)]
 
 
 
