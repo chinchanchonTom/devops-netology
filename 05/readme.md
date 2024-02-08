@@ -5,17 +5,26 @@
 Проверьте код с помощью tflint и checkov. Вам не нужно инициализировать этот проект.
 Перечислите, какие типы ошибок обнаружены в проекте (без дублей).
 <details><summary>Решение:</summary>
+На WSL Проверил все ошибки 
 
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/step1-1.png)
+
+
+---
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tflint.png)
 
+
+Обнаружены следующие ошибки:
 Ответ. Проект не был инициализирован. Нет установленого провайдера есть неиспользуемые переменные. В модулях присутствует ссылки на ветку мейн без определённого коммита.
+
+
 </details>
 ---
 
 
 
 ##Задание 2
+
 Возьмите ваш GitHub-репозиторий с выполненным ДЗ 4 в ветке 'terraform-04' и сделайте из него ветку 'terraform-05'.
 Повторите демонстрацию лекции: настройте YDB, S3 bucket, yandex service account, права доступа и мигрируйте state проекта в S3 с блокировками. Предоставьте скриншоты процесса в качестве ответа.
 Закоммитьте в ветку 'terraform-05' все изменения.
@@ -25,14 +34,16 @@
 
 <details><summary>Решение:</summary>
 
-  
+Создал S3 bucket, yandex service account, назначил права доступа, YDB:
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/Backet.png)
 
 
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/tfstate-lock.png)
 
 
+Ответ об ошибке доступа к state и принудительно разблокирую state:
 ![Илюстация к заданию](https://github.com/chinchanchonTom/devops-netology/blob/terraform-05-hotfix/05/image/lock%20id.png)
+
 
 </details>
 ---
@@ -49,7 +60,7 @@
 
 <details><summary>Решение:</summary>
 
-  
+Ссылка на PR для проверки: 
 https://github.com/chinchanchonTom/devops-netology/pull/1
 
 </details>
@@ -64,6 +75,8 @@ type=string, description="ip-адрес" — проверка, что значе
 type=list(string), description="список ip-адресов" — проверка, что все адреса верны. Тесты: ["192.168.0.1", "1.1.1.1", "127.0.0.1"] и ["192.168.0.1", "1.1.1.1", "1270.0.0.1"].
 
 <details><summary>Решение:</summary>
+
+Написал переменные с валидацией:
 
 
 https://github.com/chinchanchonTom/devops-netology/tree/terraform-05-hotfix/05/step%204
